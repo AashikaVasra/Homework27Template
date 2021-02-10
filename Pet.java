@@ -1,24 +1,26 @@
-package Homework26;
-
 public class Pet {
+	
 	private String name;
+	private String sound;
+	
+	public Pet(String inputName, String inputSound) {
+		name = inputName;
+		sound = inputSound;
+	}
+	
 	public String getName() {
 		return name;
 	}
-	public void setName(String name) {
-		this.name = name;
+	
+	public void setName(String newName) {
+		name = newName;
 	}
+	
 	public String getSound() {
 		return sound;
 	}
-	public void setSound(String sound) {
-		this.sound = sound;
-	}
-	private String sound;
-	public Pet(String name, String sound) {
-		this.name = name;
-		this.sound = sound;
-	}
 	
-	
+	public void setSound(String newSound) {
+		sound = newSound;
+	}	
 }
