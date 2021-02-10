@@ -1,22 +1,26 @@
-package Homework26;
-
 public class SocialMediaAccount {
-	private String name;
-	private int birthyear;
-	public SocialMediaAccount(String name, int birthyear) {
-		this.name = name;
-		this.birthyear = birthyear;
+	
+    private String username;
+	private int birthYear;
+    
+	public SocialMediaAccount(String username, int birthYear) {
+		this.username = username;
+		this.birthYear = birthYear;
 	}
-	public String getName() {
-		return name;
+    
+	public String getUsername() {
+		return username;
 	}
-	public void setName(String name) {
-		this.name = name;
+	
+    public void setUsername(String username) {
+		this.username = username;
 	}
-	public int getBirthyear() {
-		return birthyear;
+    
+	public int getBirthYear() {
+		return birthYear;
 	}
-	public void setBirthyear(int birthyear) {
-		this.birthyear = birthyear;
+    
+	public void setBirthYear(int birthYear) {
+		this.birthYear = birthYear;
 	}
 }
