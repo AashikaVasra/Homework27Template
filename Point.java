@@ -22,11 +22,5 @@ public class Point {
 	public void setY(int y) {
 		this.y = y;
 	}
-    
-	public static void findSlope(int x1, int y1, int x2, int y2) {
-		double slope = 0.0;
-		slope = (y2-y1)/(x2-x1);
-		System.out.println(slope);
-	}
 
 }
