@@ -5,8 +5,10 @@ public class ToDoList {
 
 	public ToDoList(String toDoListName) {
 		this.toDoListName = toDoListName;
-		// or new String[7] and assign it all to empty strings
-		this.myToDoList = {"", "", "", "", "", "", ""};
+		this.myToDoList = new String[7]; 
+		for (int i = 0; i < myToDoList.length; i++) {
+			myToDoList[i] = "";
+		}
 	}
 	
 	public String getToDoListName() {
