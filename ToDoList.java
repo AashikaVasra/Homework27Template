@@ -1,20 +1,19 @@
-package Homework26;
-
 public class ToDoList {
 	
+	private String toDoListName;
 	private String[] myToDoList;
 
-	public ToDoList(String[] myToDoList) {
-		super();
-		this.myToDoList = myToDoList;
+	public ToDoList(String toDoListName) {
+		this.toDoListName = toDoListName;
+		// or new String[7] and assign it all to empty strings
+		this.myToDoList = {"", "", "", "", "", "", ""};
+	}
+	
+	public String getToDoListName() {
+		return toDoListName;
 	}
 
 	public String[] getMyToDoList() {
 		return myToDoList;
 	}
-
-	public void setMyToDoList(String[] myToDoList) {
-		this.myToDoList = myToDoList;
-	}
-
 }
