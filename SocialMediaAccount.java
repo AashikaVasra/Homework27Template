@@ -1,6 +1,6 @@
 public class SocialMediaAccount {
 	
-    private String username;
+	private String username;
 	private int birthYear;
     
 	public SocialMediaAccount(String username, int birthYear) {
@@ -12,7 +12,7 @@ public class SocialMediaAccount {
 		return username;
 	}
 	
-    public void setUsername(String username) {
+	public void setUsername(String username) {
 		this.username = username;
 	}
     
